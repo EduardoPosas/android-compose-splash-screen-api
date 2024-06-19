@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--style for the splash screen-->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen" >
+        <!--use this to replace the icon in the center of the starting window-->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_animated_vector</item>
+        <!--use this to fill the background with a specific single color-->
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="postSplashScreenTheme">@style/Theme.SplashScreen</item>
+        <!--
+        use this to indicate the duration of the splash screen icon animation.
+        you can retrieve it when customizing the splash screen exit animation using SplashScreenView.getIconAnimationDuration
+        to keep the splash screen on-screen for longer periods
+        -->
+        <!--<item name="android:windowSplashScreenAnimationDuration">1000</item>-->
+        <!--
+        to set the background behind the splash screen icon
+        is useful if there isn't enough contrast between the window background and the icon
+        -->
+        <!--<item name="android:windowSplashScreenIconBackgroundColor">@color/black</item>-->
+    </style>
+</resources>
